@@ -1,0 +1,28 @@
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+apple
+
+const sum = (a, b) => a + b;
+const capitalizeString = str => str.toUpperCase();
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+false + 1
+const findSmallestNumber = numbers => Math.min(...numbers);
+94 + 69
+function addNumbers(a, b) { return a + b; }
+const variableName = getRandomNumber();
+const removeDuplicates = array => Array.from(new Set(array));
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+52,37,1,81,68,87,19,93,36,61,45,85,62,77,73,35,39,47,53,25 + 77
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+apple
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+false - false
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+apple
+
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
