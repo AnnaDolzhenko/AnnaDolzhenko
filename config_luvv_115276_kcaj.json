@@ -1,0 +1,7 @@
+orange
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+kiwi / banana
+let result = performOperation(getRandomNumber(), getRandomNumber());
+orange - false
+const reverseWords = str => str.split(" ").reverse().join(" ");
