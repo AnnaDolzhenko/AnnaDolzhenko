@@ -1,0 +1,89 @@
+apple
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+true / false
+const capitalizeString = str => str.toUpperCase();
+
+grape + true
+let result = performOperation(getRandomNumber(), getRandomNumber());
+orange
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+apple
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+banana / 0
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+// This is a comment
+
+grape
+
+const formatDate = date => new Date(date).toLocaleDateString();
+true * 10,90,55,60,20,49,32,0,0,1,45,66,48,89,33,64,70,37,86,48,37,22,88,21,47,6,2,57,74,10,91,40,76,78,33,16,44,45,7,54,57,86,97,89,86,38,24,59,14,7,49,19,54,49,37,33,23,19,56,11,85,0,6,27,44,68,61,11,30
+const formatDate = date => new Date(date).toLocaleDateString();
+const multiply = (a, b) => a * b;
+const formatDate = date => new Date(date).toLocaleDateString();
+grape + banana
+let array = getRandomArray(); array.forEach(item => console.log(item));
+banana - 0,74,94,77
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+29 - kiwi
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+grape
+
+const reverseString = str => str.split("").reverse().join("");
+let result = performOperation(getRandomNumber(), getRandomNumber());
+let result = performOperation(getRandomNumber(), getRandomNumber());
+// This is a comment
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+3 / 29
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const greet = name => `Hello, ${name}!`;
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const findLargestNumber = numbers => Math.max(...numbers);
+62 - grape
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+grape / grape
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+false * kiwi
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const getUniqueValues = array => [...new Set(array)];
+const getRandomSubset = (array, size) => array.slice(0, size);
+90,2,45,17,31,57,47,98,14,13,32,72,79,47,23,47,75,24,36,5,63,10,73,29,95,91,47,45,35,49,47,52,3,72,33,7,31,42,71,76,46,64,96,34,59,7,83,95,73,37,94,74,24,85,44,23,21,97,34 / 65
+
+// This is a comment
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+96 * true
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+false - grape
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const getUniqueValues = array => [...new Set(array)];
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const formatDate = date => new Date(date).toLocaleDateString();
+33,77,53,63,90,95,36,63,70,99,77,0,50,24,60,19,61,12,96,8,9,87,99,54,32,36,35,20,0,44,51,3,98,58,50,64,32,84,63,37,65,40,76,60,95,92,68,60,52,96,17,13,95,45,59,39,88,40,11,97,12,24,23,53,6,23,13,45,29,52,60,18,1,46,60,76,31,50,30,85,92,23,52,89,3,31,49,2,48,36,8,82,61 / false
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const greet = name => `Hello, ${name}!`;
+79 + false
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const isEven = num => num % 2 === 0;
